@@ -1,0 +1,674 @@
+/* =========== index CSS file ================ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* =========== container style =============== */
+#main_container{
+    height: auto;
+    width: 1366px;
+    /* width: auto; */
+    /* max-width:1450px; */
+    margin: 0 auto;
+    background-color:green;
+}
+
+/* ================= headder ================= */
+
+#main_container header{
+
+}
+#main_container header .head-main{
+ height: 40px;
+ width: 100%;
+ /* max-width:1450px; */
+ background-color: gray;   
+}
+#main_container header .head-main .head-child{
+    height:40px;
+    width: 80%;
+    /* max-width:100%; */
+    line-height: 40px;
+    margin: 0 auto;
+    /* background:black; */
+}
+#main_container header .head-child .text{
+    height:40px;
+    width: 100%;
+    /* max-width:100%; */
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin: 0 auto;
+    color: white;
+    background:black; 
+}
+#main_container header .head-child .text h3{
+    font-size: 9px;
+    font-weight: 100;
+    letter-spacing:1px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#main_container header .head-child .text h3 a{
+    font-weight:700;
+    color:white;
+}
+/* =============== end headder =================== */
+
+/* =================== start bar ================== */
+#main_container .main-bar{
+    height:80px;
+    width: 100%;
+    background-color:red;
+}
+#main_container .main-bar .child-bar{
+    height: 80px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background-color:gray;
+}
+/* ========================== logo ====================== */
+#main_container .main-bar .child-bar .logo-bar{
+   height: 80px;
+   width: 35%;
+   background-color: aqua;
+}
+#main_container .main-bar .child-bar .logo-bar h2{
+    font-size:25px;
+    line-height: 80px;
+    font-weight: 300;
+    letter-spacing:0.5px;
+    text-transform: uppercase;
+}
+#main_container .main-bar .child-bar .logo-bar h2 span{
+  font-weight:700;
+  color: black;
+}
+#main_container .main-bar .child-bar .logo-bar h2 strong{
+    font-size: 15px;
+    font-weight:300;
+}
+/* ====================== search bar ===================== */
+#main_container .main-bar .child-bar .search-bar{
+    height:80px;
+    width:27%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: blue;
+}
+#main_container .main-bar .child-bar .search-bar input{
+    height: 35px;
+    width: 95%;
+    padding-left:2%;
+}
+/* ==================== search icon ===================== */
+#main_container .main-bar .child-bar .search-icon{
+    height: 35px;
+    width:3.5%;
+    display: inline;
+    /* display: flex; */
+    /* align-items: center; */
+    /* margin: 0 auto; */
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+#main_container .main-bar .child-bar .search-icon i{
+    text-align: center;
+    line-height: 35px;
+    display:block;
+}
+/* =================== header con ================== */
+#main_container .main-bar .child-bar .contact{
+    height:80px;
+    width:12%;
+    text-align: center;
+    line-height:80px;
+    background-color: blueviolet;
+}
+#main_container .main-bar .child-bar .contact i{
+    /* text-align: center; */
+}
+#main_container .main-bar .child-bar .contact span{
+   /* text-align: center; */
+}
+/* ====================== header icon ==================== */
+#main_container .main-bar .child-bar .icon{
+  height: 80px;
+  width: 26%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: aqua;
+}
+#main_container .main-bar .child-bar .icon .icon-a{
+    height: 80px;
+    width: 33%;
+    text-align: right;
+    background-color: aquamarine;
+}
+#main_container .main-bar .child-bar .icon .icon-a i{
+    display: inline-block;
+    text-align:right;
+    line-height:80px;
+    font-size: 18px;
+}
+#main_container .main-bar .child-bar .icon .icon-a span i{
+   font-size:10px;
+}
+
+
+/* ========================== end bar ======================= */
+
+/* ============================ navigation ========================== */
+#main_container .main-nav{
+    height:40px;
+    width: 100%;
+    background-color: black;
+}
+#main_container .main-nav .child-nav{
+    height: 40px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: gray;
+}
+#main_container .main-nav .child-nav .nav{
+    height: 40px;
+    width:80%;
+    margin: 0 auto;
+    background-color: brown;
+}
+#main_container .main-nav .child-nav .nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    line-height:40px;
+}
+#main_container .main-nav .child-nav .nav ul li{
+    position: relative;
+}
+#main_container .main-nav .child-nav .nav ul li span{
+    text-align: center;
+}
+#main_container .main-nav .child-nav .nav ul li span i{
+    font-size:10px;
+}
+/* #main_container .main-nav .child-nav .nav ul ul{
+  display: none;
+
+}
+#main_container .main-nav .child-nav .nav ul li:hover>ul{
+  display: block;
+}
+#main_container .main-nav .child-nav .nav ul ul ul{
+   position: absolute;
+   top: 0;
+   margin-left:20px;
+   z-index:2;
+} */
+
+/* ================== end nav section ======================== */
+
+/* ======================== banner section =================== */
+#main_container .main-ban{
+    position: relative;
+    height:500px;
+    width: 100%;
+    background-color: rgb(168, 110, 110);
+}
+#main_container .main-ban .img-ban{
+    height: 500px;
+    width: 100%;
+    background-color: aquamarine;
+}
+#main_container .main-ban .img-ban img{
+    height: 500px;
+    width: 100%;
+}
+#main_container .main-ban .main-over{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 100%;
+    /* margin: 0 auto; */
+    background-color:rgb(0, 0, 0,0.5);
+
+}
+#main_container .main-ban .main-over .child-over{
+    /* position: absolute; */
+    /* top: 0; */
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: right;
+    color: white;
+    /* background-color:rgb(0, 0, 0,0.5); */
+}
+#main_container .main-ban .main-over .child-over  i{
+    font-size: 45px;
+    line-height:500px;
+    /* display: inline-block; */
+}
+
+#main_container .main-ban .main-overa{
+    position:absolute;
+    top: 270px;
+    left: 0;
+    display: flex;
+    height: 230px;
+    width: 100%;
+    background-color:rgb(0, 0, 0,0.5);  
+}
+#main_container .main-ban .main-overa .over{
+    height: 100px;
+    width: 48%;
+    margin: 0 auto;
+    display: flex;
+    /* display:inline-block; */
+    background-color: green;
+}
+#main_container .main-ban .main-overa .over .text{
+    height:100px;
+    width: 65%;
+    /* display: inline; */
+    display: inline-block;
+    background-color: aquamarine;
+}
+#main_container .main-ban .main-overa .over .text h1{
+   font-size:36px;
+   text-transform: uppercase;
+   text-indent:18px;
+   line-height:70px;
+}
+#main_container .main-ban .main-overa .over .text h2{
+   font-size: 19px;
+   text-transform: uppercase;
+   text-indent:18px;
+   /* line-height:-100px; */
+   font-weight: 200;
+   letter-spacing: 0.7px;
+   margin-top: -20px;
+   /* color: wheat; */
+}
+#main_container .main-ban .main-overa .over .button{
+    height: 100px;
+    width:35%;
+    /* display:inline; */
+    display: inline-block;
+     background-color: aliceblue;
+}
+#main_container .main-ban .main-overa .over .button button{
+   height: 38px;
+   width: 90%;
+   margin: 32px auto;
+   font-size:16px;
+}
+/* ================================= banner end ============================ */
+
+/* ============================== after banner nav bar =========================== */
+#main_container .main-nav-sec{
+    /* height: 150px; */
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+}
+#main_container .main-nav-sec .main-child{
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(121, 150, 177);
+}
+#main_container .main-nav-sec .main-child .nav{
+  height: 50px;
+  width: 100%;
+  /* justify-content: space-evenly; */
+  /* display: inline-block; */
+}
+#main_container .main-nav-sec .main-child .nav ul{
+    display: flex;
+    /* display: inline-block; */
+    text-align: center;
+    list-style: none;
+   /* justify-content: space-around; */
+   /* justify-content: space-evenly; */
+   justify-content: space-between;
+   
+}
+#main_container .main-nav-sec .main-child .nav ul li{
+     line-height: 50px; 
+    /* display: inline-block; */
+   /* justify-content: space-evenly; */
+   /* justify-content: space-between; */
+}
+#main_container .main-nav-sec .main-child .nav ul li i{
+     /* font-weight: 200; */
+}
+#main_container .main-nav-sec .main-child .nav ul li span{
+     /* font-size: ; */
+     text-transform:capitalize;
+}
+/* <!-- ================================== end after banner nav ==================================== --> */
+
+/* =========================================== trending category =======================================*/
+#main_container .main_treding{
+    height:auto;
+    width: 100%;
+    background-color: aquamarine;
+}
+#main_container .main_treding .child_treding{
+    height: auto;
+    width:80%;
+    margin: 0 auto;
+    background-color: rgb(189, 189, 124);
+}
+#main_container .main_treding .child_treding .title{
+    height: 140px;
+    width: 100%;
+    /* text-align: center; */
+}
+#main_container .main_treding .child_treding .title h5{
+   font-size:16px;
+   text-align: center;
+   line-height: 140px;
+   /* margin-top:100px; */
+}
+#main_container .main_treding .child_treding .title h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top:-50px;       
+}
+#main_container .main_treding .child_treding .all{
+    height:600px;
+    width: 100%;
+    background-color: gray;
+}
+#main_container .main_treding .child_treding .all .top{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    background-color: bisque;
+}
+#main_container .main_treding .child_treding .all .top .a{
+    position: relative;
+     height: 270px;
+     width:32%;
+     /* display: inline-block; */
+     /* margin:20px 0.4%; */
+     /* margin: 20px auto; */
+     margin-top: 15px;
+     background-color: blue;
+}
+#main_container .main_treding .child_treding .all .top .a .img{
+    position: relative;
+    height:270px;
+    width: 100%;
+    background-color: aliceblue;
+}
+#main_container .main_treding .child_treding .all .top .a img{
+    height: 270px;
+    width: 100%;
+}
+#main_container .main_treding .child_treding .all .top .a .over-button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 270px;
+    width: 100%;
+    /* color: transparent; */
+    background-color: transparent;
+    background-color: rgb(0, 0, 0,0.3);
+}
+#main_container .main_treding .child_treding .all .top .a .over-button h3{
+      font-size: 20px;
+      color: white;
+}
+#main_container .main_treding .child_treding .all .top .a .over-button button{
+
+}
+#main_container .main_treding .child_treding .all .down{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    background-color: bisque;
+}
+#main_container .main_treding .child_treding .all .down .a{
+    position: relative;
+    height: 270px;
+    width:49%;
+    background-color: blue;
+}
+#main_container .main_treding .child_treding .all .down .a .img{
+    height: 270px;
+    width: 100%;
+    background-color: aliceblue;
+}
+#main_container .main_treding .child_treding .all .down .a .img img{
+    height: 270px;
+    width: 100%;
+}
+#main_container .main_treding .child_treding .all .down .a .over-button{
+    position:absolute;
+    top:0;
+    left: 0;
+    height: 270px;
+    width: 100%;
+    background-color:transparent;
+}
+#main_container .main_treding .child_treding .all .down .a .over-button h3{
+
+}
+#main_container .main_treding .child_treding .all .down .a .over-button button{
+
+}
+
+/* <!--  ================================ end trending category=================================================== --> */
+
+/* <!-- ================================= start letest category ================================================== --> */
+
+#main_container .main-lates{
+    height: auto;
+    width:100%;
+    background-color: gray;
+}
+#main_container .main-lates .child-lates{
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+#main_container .main-lates .child-lates .title{
+    height: 140px;
+    width: 100%;
+    /* text-align: center; */
+}
+#main_container .main-lates .child-lates .title h5{
+   font-size:16px;
+   text-align: center;
+   line-height: 140px;
+   /* margin-top:100px; */
+}
+#main_container .main-lates .child-lates .title h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top:-50px;       
+}   
+
+#main_container .main-lates .child-lates .all{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(18, 99, 72);
+}
+#main_container .main-lates .child-lates .all .a{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    background-color: aliceblue;
+}
+#main_container .main-lates .child-lates .all .a .items{
+    height: 500px;
+    width:23%;
+    background-color: aquamarine;
+}
+#main_container .main-lates .child-lates .all .a .items .img-sec{
+    height:340px;
+    width: 100%;
+    background-color: rgb(51, 46, 39);
+}
+#main_container .main-lates .child-lates .all .a .items .img-sec .img{
+   height: 340px;
+   width: 100%;
+   background-color: rgb(89, 120, 148);
+}
+#main_container .main-lates .child-lates .all .a .items .img-sec .img img{
+   height: 340px;
+   width: 100%;
+}
+#main_container .main-lates .child-lates .all .a .items .text-text{
+   height:160px;
+   width: 100%;
+   background-color: blueviolet;
+}
+#main_container .main-lates .child-lates .all .a .items .text-text .line1{
+   height: auto;
+   width: 100%;
+   display: flex;
+   /* justify-content: space-between; */
+   background-color: blueviolet;
+}
+#main_container .main-lates .child-lates .all .a .items .text-text .line1 .a{
+   height:40px;
+   width:50%;
+   background-color: azure;
+}
+#main_container .main-lates .child-lates .all .a .items .text-text .line1 .a span{
+   /* text-align:right; */
+   vertical-align:right;
+   line-height:40px;
+}
+#main_container .main-lates .child-lates .all .a .items .text-text .line1 .a i{
+   width:10%;
+    display:block;
+   font-size:10px;
+   /* text-align: center; */
+   /* text-indent:9px; */
+   line-height: 40px;
+   /* margin-left: -50px; */
+   padding-left:-100%;
+   background-color: blueviolet;
+}
+#main_container .main-lates .child-lates .all .a .items .text-text .line2{
+    height:38px;
+    width: 100%;
+    background-color: aquamarine;
+}
+#main_container .main-lates .child-lates .all .a .items .text-text .line2 p{
+    font-size:15px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#main_container .main-lates .child-lates .all .a .items .text-text .line3{
+  height:41px;
+  width:100%;
+  /* display: flex; */
+  background-color:blue;
+}
+#main_container .main-lates .child-lates .all .a .items .text-text .line3 .a{
+    height:41px;
+    width: 100%;
+    text-align: center;
+    /* display: flex; */
+    /* display:inline-block; */
+    background-color:green;
+}
+
+#main_container .main-lates .child-lates .all .a .items .text-text .line3 .a span{
+   height: 15px;
+   width:15px;
+   /* margin-left:-50%; */
+   /* padding-left:-50%; */
+   border-radius: 50%;
+   background-color: black;
+}
+/* #main_container .main-lates .child-lates .all .a .items .text-text .line3 .a div{
+    height: 20px;
+    width:20px;
+    border-radius: 50%;
+    background-color: black;
+ } */
+#main_container .main-lates .child-lates .all .a .items .text-text .line3 .a strong{
+
+}
+
+
+/* ========================= end latest ==================================== */
+
+/* ================================-= about our story ===================================== */
+
+#main_container .main-story{
+    height: auto;
+    width: 100%;
+    background-color: lightgreen;
+}
+#main_container .main-story .child-story{
+    height:auto;
+    width: 80%;
+    background-color: aquamarine;
+}
+
+/* 
+psd to html
+move-tools-double click
+go to the layer
+right click 
+dublicate-new
+imge-->trim */
+
+
+/* font */
+
+@media screen and (max-width:700px) {
+    #main_container{
+        /* height: auto; */
+        width: 700px;
+        /* width: auto; */
+        /* max-width:1450px; */
+        margin: 0 auto;
+        display:block;
+        background-color:green;
+    }   
+    #main_container header .head-main{
+        /* height: 40px; */
+        /* width: 100%; */
+        /* max-width:1450px; */
+        background-color: gray;   
+       }
+       #main_container header .head-main .head-child{
+           /* height:40px; */
+           /* width: 80%; */
+           /* max-width:100%; */
+           /* line-height: 40px; */
+           display: block;
+           margin: 0 auto;
+           background:black;
+       }
+       #main_container header .head-child .text{
+        /* height:40px; */
+        width: 100%;
+        /* max-width:100%; */
+        text-align: center;
+        /* text-transform: uppercase; */
+        /* line-height: 40px; */
+        margin: 0 auto;
+        color: white;
+        background:black; 
+    }
+}

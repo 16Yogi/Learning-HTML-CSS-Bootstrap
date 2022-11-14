@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    height: auto;
+    width: 1450px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: blue;
+}
+.main-container .child-container{
+    height: auto;
+    width: 1450px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: blue;
+}
+.main-container .child-container .header{
+    height: auto;
+    width: 100%;
+    background: gray;
+}
+.main-container .child-container .header .child-header{
+height: auto;
+width: 80%;
+margin: 0 auto;
+background-color: brown;
+}
+.main-container .child-container .header .child-header .wrapper{
+height: 60px;
+width: 100%;
+display: flex   ;
+background-color: magenta;
+}
+.main-container .child-container .header .child-header .wrapper .a{
+height: 60px;
+width: 50%;
+display: flex;
+background-color: khaki;
+}
+.main-container .child-container .header .child-header .wrapper .a .aa{
+height: 60px;
+width: 40%;
+background-color: brown;
+}
+
+/* second header */
+.main-container .child-container .second-header{
+    height: auto;
+    width: 100%;
+    background-color: lavender;
+}
+.main-container .child-container .second-header{
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    background-color: darkblue;
+}
+.main-container .child-container .second-header .wrapper{
+   height: 80px;
+   width: 100%;
+   display: flex;
+}
+
+.main-container .child-container .second-header .wrapper .bb{
+   height: 80px;
+   width: 50%;
+   background-color: blueviolet;
+   display: flex;
+ 
+}
+.main-container .child-container .second-header .wrapper .bb .cc{
+  height: 80px;  
+   width:30% ;
+   background-color: tomato;
+}
+
+.main-container .child-container .second-header .wrapper .bb .c{
+     min-height: 80px;
+     width: 50%;
+     background-color: hotpink;
+}
+.main-container .nav{
+    height: auto;
+    width: 100%;
+    background-color: yellowgreen;
+}
+.main-container .nav .nav-child{
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.main-container .nav .nav-child .wrap{
+    height: 50px;
+    width: 100%;
+    background-color: lightblue;
+}
+.main-container .nav .nav-child .wrap .content{
+    height: 50px;
+    width: 100%;
+    background-color: brown;
+}
+.main-container .nav .nav-child .wrap .content ul{
+list-style: none;
+display: flex;
+justify-content:space-around;
+line-height: 50px;
+font-weight: 600;
+text-transform: uppercase;
+}
+/* banner section */
+
+
+.main-container .child-container .banner{
+  height: auto; 
+  width:100% ; 
+  background-color: yellow;
+}
+.main-container .child-container .banner .child-banner{
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    background-color: salmon;
+}
+.main-container .child-container .banner .child-banner .wrap{
+height: 400px;
+width: 100%;
+margin: 0 auto;
+background-color: firebrick;
+}``
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

@@ -1,0 +1,28 @@
+/* ================== media Query ===================== */
+
+/* ======== Deksktop View ============ */
+
+@media(min-width:1200px){
+        
+}
+
+
+
+
+/* ====== next view ======== */
+
+@media(min-width:922px){
+    
+}
+
+
+/* ====== mobile views ====== */
+
+@media screen and (max-width:700px){
+  .name{
+      height:50px;
+      width: 100%;
+      text-align: center;
+      display: block;
+  }  
+}

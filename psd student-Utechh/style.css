@@ -1,0 +1,183 @@
+
+		*{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+		img{
+			width: 100%;
+			height: 100%;
+		}
+		.container{
+			max-width: 1175px;
+			margin: 0 auto;
+		}
+		.header_section{
+			width: 1175px;
+			/*height:540px;*/
+			/*background:blue;*/
+			font-size: 0px;
+		}
+		.header_section .left_header_section{
+			display: inline-block;
+			width: 570px;
+			height:540px;
+			height: inherit;
+			/*background: blue;*/
+			vertical-align: top;
+
+
+		}
+		.header_section .right_header_section{
+			display: inline-block;
+			width: 570px;
+			height:540px;
+			margin-left: 35px;
+      /*vertical-align: to*/
+			vertical-align: top;
+			/*float: right;*/
+			
+		}
+		.header_section .right_header_section img{
+			display:block;
+			width: 100%;
+			height: 100%;
+		}
+		.left_header_section{
+			padding-top:72px;
+		}
+		.left_header_section h1{
+			font-size: 60px;
+			/*margin-top: 40px 0px 40px 0px;*/
+			font-family: 'Montserrat', sans-serif;
+		}
+		.left_header_section p{
+			font-size:12px;
+			/*width: 535px;*/
+			margin: 40px 0px 40px 0px;
+			font-family: 'Montserrat', sans-serif;
+			font-weight:500;
+			/*background: red;*/
+		}
+		.left_header_section button{
+			background:#ffe100;
+			width: 180px;
+			height: 50px;
+			border: none;
+			font-size: 15px;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 500;
+
+		}
+		/*==========================================*/
+
+		/*===================work showcase section start=======================*/
+
+	  .work_showcase_section .work_showcase_heading{
+		  font-size: 58.79px;
+		  font-family: 'Montserrat', sans-serif;
+		  margin-top: 130px;
+		  /*width: 595px;
+		 	height:50px;*/
+		  /*background: red;*/	
+     }
+     .work_showcase_nav{margin-top: 68px;}
+
+     .work_showcase_nav .work_showcase_ul{
+     	/*background: pink;*/
+     	/*column-gap: 40px;*/
+     	/*display: flex;*/
+     	/*justify-content: flex-start;*/
+     	/*background: red;*/
+     }
+     .work_showcase_nav .work_showcase_ul li{
+     	list-style: none;
+     	/*justify-self: flex-end;*/
+     	display: inline-block;
+     	/*padding: 6px 20px 15px;*/
+    }
+     .work_showcase_nav .work_showcase_ul li a{
+     	text-decoration: none;
+     	padding: 6px 20px 15px;
+     	display: inline-block;
+     	color: #1e1e1e;
+     	font-size: 12px;
+     	font-family: 'Montserrat', sans-serif;
+			/*font-weight:600;*/
+			font-weight: bolder;
+			/*font-weight: lighter;*/
+    }
+    .work_showcase_nav .work_showcase_ul li a:nth-child(2){
+    	padding:6px 0px 15px;
+    }
+    /*.work_showcase_nav .work_showcase_ul li a:nth-child(3){
+    	background: green;
+    }*/
+     .work_showcase_nav .work_showcase_ul li:hover{
+     		background:#ffe100;
+     }
+     .work_showcase_nav .work_showcase_ul .newest_first_list{
+     	text-align: right;
+     	float: right;
+     	/*background: red;*/
+
+     }
+		/*===================work showcase section close=======================*/
+
+     /*====================art work section start================================*/
+     .artwork_section{
+     	margin-top: 80px;
+     	/*width: 1175px;*/
+     	/*height: 823px;*/
+     	/*background: pink;*/
+     }
+    
+     .artwork_section .artwork_section_left,
+     .artwork_section_center,.artwork_section_right
+     {
+     	/*height: 830px;*/
+     	width: 375px;
+     		height: 823px;
+     	/*background: red;*/
+     	margin-right:21px;
+     	display: inline-block;
+     	vertical-align: top;
+     }
+     .artwork_section_right{
+     	margin-right: 0px;
+     }
+     .artwork_section .artwork_section_left .artwork_section_left1,.artwork_section_right1{
+     	height: 300px;
+     	/*background: blue;*/
+     }
+     .artwork_section .artwork_section_left .artwork_section_left2,.artwork_section_right2{
+     	height: 502px;
+     	background:green;
+     	margin-top: 21px;
+     }
+     .artwork_section .artwork_section_center {
+     	height:823px;
+     }
+     .artwork_section .artwork_section_center .artwork_section_center1{
+     	height: 502px;
+     	background: blue;
+     }
+     .artwork_section .artwork_section_center .artwork_section_center2{
+     	height: 300px;
+     	background: blue;
+     	margin-top: 21px;
+     }
+     .artwork_section button{
+     	display:block;
+			background:#ffe100;
+			width: 180px;
+			height: 50px;
+			border: none;
+			font-size: 12px;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 500;
+			margin: 0 auto;
+
+
+		}
+     /*------------------------------------------------*/
