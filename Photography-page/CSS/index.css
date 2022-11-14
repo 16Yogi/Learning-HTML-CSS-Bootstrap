@@ -1,0 +1,116 @@
+/* =========== index CSS ============ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+/* ================== headder ================ */
+
+.container .headder{
+    height: 60px;
+    width: 100%;
+    background-color: bisque;
+}
+.container .headder .child-head{
+    height: 60px;
+    width:95%;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+}
+.container .headder .child-head .logo{
+    height:60px;
+    width:30%;
+    float: left;
+    background-color: cadetblue;
+}
+.container .headder .child-head .logo h1{
+    font-size: 25px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+.container .headder .child-head .navigation{
+    height: 60px;
+    width: 70%;
+    float: left;
+    background-color: rgb(2, 109, 112);
+}
+.container .headder .child-head .navigation ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.container .headder .child-head .navigation ul li{
+    list-style: none;
+    line-height:60px;
+    font-weight: 600;   
+}
+
+/* ============= banner ============ */
+
+.container .banner{
+    height: 575px;
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(to right, #141e30, #243b55);
+}
+.container .banner .title{
+    height:200px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    /* transform: translate(20%,150px); */
+    background-color: rgb(27, 25, 27);
+}
+.container .banner .title h1{
+    font-size: 30px;
+    /* text-align: center; */
+    text-transform: uppercase;
+    line-height: 280px;
+}
+.container .banner .title h3{
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-top: -110px;
+}
+.container .banner .bar{
+    height: 200px;
+    width: 80%;
+    /* align-content: center; */
+    /* justify-content: center; */
+    margin: 0 auto;
+}
+
+/*============== home footer ======== */
+
+.container .footer{
+    height:60px;
+    width: 100%;
+    background-color: wheat;
+}
+.container .footer .footer-child{
+  height: 60px;
+  width:95%;
+  margin: 0 auto;
+  background-color: violet;
+}
+.container .footer .footer-child p{
+    text-align: center;
+    font-weight: 600;
+    line-height: 60px;
+}
+.container .footer .footer-child p a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+

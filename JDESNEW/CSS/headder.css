@@ -1,0 +1,39 @@
+/* =============================== HEADDER CSS =============================== */
+
+.container-fluid{
+
+}
+.container-fluid .container{
+
+}
+.container-fluid .container .nav{
+   height: auto;
+   width: 100%;
+   margin: 0 auto;
+}
+.container-fluid .container .nav .nav-child{
+   height: auto;
+   width: 90%;
+   margin:0 auto;
+}
+.container-fluid .container .nav .nav-child .wrap{
+
+}
+.container-fluid .container .nav .nav-child .wrap .sec{
+
+}
+.container-fluid .container .nav .nav-child .wrap .sec .wrapper{
+
+}
+.container-fluid .container .nav .nav-child .wrap .sec .wrapper nav{
+
+}
+.container-fluid .container .nav .nav-child .wrap .sec .wrapper nav ul{
+
+}
+.container-fluid .container .nav .nav-child .wrap .sec .wrapper nav ul a{
+
+}
+.container-fluid .container .nav .nav-child .wrap .sec .wrapper nav ul a li{
+
+}

@@ -1,0 +1,74 @@
+#header{
+        position: relative;
+        top: -1%;
+        left:0%;
+        background-color: teal;
+        height:5%;
+        width: 100%;
+    }
+/*--icon--*/
+#fb{
+    position:absolute;
+    top:15%;
+    left:85%;
+    font-size:20px;
+}
+#tw{
+    position:absolute;
+    top:15%;
+    left:87%;
+    font-size:20px;
+}
+#link{
+    position:absolute;
+    top:15%;
+    left:89%;
+    font-size:20px;
+}
+#insta{
+    position:absolute;
+    top:15%;
+    left:91%;
+    font-size:20px;
+}
+#user{
+    position:absolute;
+    top:9%;
+    left:97%;
+    font-size:23px;   
+}
+
+
+
+#nevigation{
+            position: relative;
+            top:-0.8%;
+            left: 0%;
+            background-color: violet;
+            height:6%;
+            width: 100%;
+}
+#banner{
+        position: relative;
+        top: -0.5%;
+        left: 0%;
+        background-color: thistle;
+        height: 70%;
+        width: 100%;
+}
+#about{
+       position: relative;
+       top:-0.8;
+       left: 0%;
+       background-color: gray;
+       height: 30%;
+       width: 100%;
+}
+#bottom{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        background-color: black;
+        height: 40%;
+        width: 100%;
+}

@@ -1,0 +1,97 @@
+body{
+     background-color:#04588E;
+}
+#logo{
+      position: absolute;
+      border: 3px solid;
+      border-color: white;
+      top: 17%;
+      left: 49.5%;
+      height: 55px;
+      width: 4%;
+      border-radius: 50%;
+}
+h1{
+    position: absolute;
+    color: white;
+    top:15%;
+    left: 50%;
+    font-family: 'Berkshire Swash', cursive;
+}
+#user{
+      position:absolute;
+      top: 30%;
+      left: 45%;
+    
+}
+
+#password{
+          position: absolute;
+          top: 45%;
+          left: 45%;
+}
+p{
+    color:white;
+    
+}
+input{
+      height: 25px;
+      width: 100%;
+      background-color:#04588E;
+      color: white;
+      border-color: white;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.login{
+    position:absolute;
+    top:60% ;
+    left: 45%;
+    height:25px;
+    width: 13.5%;
+}
+
+.sing{
+    position:absolute;
+    top:66% ;
+    left: 45%;
+    height:25px;
+    width: 13.5%;
+}
+.pass{
+    position:absolute;
+    top:72% ;
+    left: 45%;
+    height:25px;
+    width: 13.5%;
+}
+hr{
+    position:absolute;
+    top:80% ;
+    left: 37%;
+   
+    width:30%;
+    
+}
+
+/*button{
+      position:absolute;
+      top:60% ;
+      left: 45%;
+      height:25px;
+      width: 13.5%;
+}
+/*all button style*/
+/*button{
+       border-style: none;
+       border-radius: 5%;
+}
+.sing{
+    position:absolute;
+    top:65% ;
+    left: 45%;
+    height:25px;
+    width: 13.5%;
+}*/

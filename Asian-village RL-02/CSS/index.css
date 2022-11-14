@@ -1,0 +1,707 @@
+/* ============ index style =============== */
+/* ============ Project -02 =============== */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* =========== main container ============= */
+.container{
+    height:auto;
+    width: 1349px;
+    margin: 0 auto;
+    /* background-color: thistle; */
+}
+/* ============== headder =============== */
+.container .headder{
+    height:auto;
+    width: 100%;
+    /* background-color: rgb(13, 80, 58); */
+}
+/* ============= head icon ================= */
+.container .headder .icon-headder{
+    height: 40px;
+    width: 100%;
+    color:white;
+    background-color: black;
+}
+.headder .icon-headder .icon{
+    height: 40px;
+    width:85%;
+    margin: 0 auto;
+    color: white;
+    /* background-color:blueviolet; */
+}
+.headder .icon-headder .icon .icon-a{
+    height: 38px;
+    width: 3%;
+    float: right;
+    /* margin: 0.5px; */
+    /* background-color: burlywood; */
+}
+.headder .icon-headder .icon .icon-a i{
+    line-height:38px;
+    cursor: pointer;
+}
+
+/* ===== navigation ===== */
+
+.headder .navigation{
+    height: 70px;
+    width: 100%;
+    color:black;
+    /* background-color: gray; */
+}
+.headder .navigation .child-nav{
+    height: 80px;
+    width: 85%;
+    margin: 0 auto;
+    /* background-color: rgb(92, 61, 121); */
+}
+/* ======= logo ======= */
+.headder .navigation .child-nav .logo{
+    position: relative;
+    height: 70px;
+    width: 40%;
+    float: left;
+    cursor: pointer;
+    /* background-color: rgb(238, 235, 241); */
+}
+.headder .navigation .child-nav .logo i{
+   font-size: 30px;
+   /* display: block; */
+   line-height: 70px;
+   color: rgb(236, 39, 25);
+}
+.headder .navigation .child-nav .logo strong{
+    position: absolute;
+    top:17px;
+    left:8%;
+   font-size:17px;
+   /* display: block; */
+   text-transform: uppercase;
+   line-height:-100px;
+   color:#C70039;   
+}
+.headder .navigation .child-nav .logo span{
+    display: block;
+    font-size:13px;
+    margin:-32px 8.5%;
+    text-transform: uppercase;
+}
+/* ====== nav-link ====== */
+.headder .navigation .child-nav .nav-link{
+    height: 70px;
+    width: 60%;
+    float: left;
+    /* background-color: cadetblue; */
+}
+.headder .navigation .child-nav .nav-link ul{
+    display: flex;
+    list-style: none;
+    /* align-content: center; */
+    /* text-align: right; */
+    /* justify-content: space-around; */
+}
+.headder .navigation .child-nav .nav-link ul li{
+    line-height: 70px;
+    font-weight: 700;
+    text-align: right;
+    margin-left: 10.1%;
+    cursor: pointer;
+
+}
+
+/* ========== banner ============ */
+
+.headder .banner{
+    position: relative;
+    height: 450px;
+    width: 100%;
+    /* background-color: rgb(169, 231, 233); */
+}
+.headder .banner .left-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 450px;
+    width: 55%;
+    /* float: left; */
+    z-index: 1;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+    /* background-color: rgb(231, 66, 55); */
+    background-color: #C70039;
+}
+.headder .banner .right-bar-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 450px;
+    width: 100%;
+    /* float: left; */
+    /* background-color: rgb(231, 66, 55); */
+}
+.headder .banner .right-bar-img img{
+    height: 450px;
+    width: 90%;
+    display: block;
+    float: right;
+}
+/* ======== over banner text ========= */
+.headder .banner .banner-text{
+    position: absolute;
+    top: 0;
+    left: 7.5%;
+    height: 450px;
+    width: 85%;
+    margin: 0 auto;
+    z-index: 2;
+    color: white;
+    background-color:transparent;
+}
+.headder .banner .banner-text h1{
+  font-weight: 100;
+  font-size:45px;
+  text-transform: uppercase;
+  line-height: 150px;
+}
+.headder .banner .banner-text h2{
+    /* font-weight: 100; */
+    font-size:45px;
+    text-transform: uppercase;
+    margin-top:-50px;
+}
+.headder .banner .banner-text p{
+    font-size: 17px;
+    /* line-height:25px; */
+    margin-top: 20px;
+}
+.headder .banner .banner-text button{
+    height:29px;
+    width: 10%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+/* =========== help section ============= */
+
+.container .help{
+    height: 370px;
+    width: 100%;
+    /* background-color: violet; */
+}
+.container .help h1{
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 80px;
+}
+.container .help span{
+    /* color:rgba(224, 38, 32, 0.945); */
+    color: #C70039;
+}
+.container .help .help-child{
+    height: auto;
+    width: 85%;
+    margin: 0 auto;
+    background-color: rgb(36, 23, 36);
+}
+.container .help .help-child .help-a{
+    height: 270px;
+    width:25%;
+    float: left;
+    cursor: pointer;
+    /* margin: 2.8px; */
+    /* background-color: turquoise; */
+}
+.container .help .help-child .help-a .img{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    /* clip-path: circle(50% at 50% 50%); */
+
+    border: 5px solid rgba(235, 233, 233, 0.938);
+    margin: 0 auto;
+    /* background-color: white; */
+}
+.container .help .help-child .help-a .img img{
+    height: 110px;
+    width: 110px;
+    clip-path: circle(50% at 50% 50%);
+    /* clip-path: circle(46% at 46% 45%); */
+    /* border-radius: 50px; */
+    /* box-shadow: 5px 5px 2px black; */
+    /* border: 3px solid rgb(240, 235, 235); */
+}
+.container .help .help-child .help-a .text{
+    height: 160px;
+    width: 100%;
+    text-align: center;
+    /* background-color:gray; */
+}
+.container .help .help-child .help-a .text h2{
+    font-size: 20px;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+/* ========= we are nonprofit team ============== */
+.nonprofit{
+    height: auto;
+    width: 100%;
+    /* background-color: tomato; */
+}
+.nonprofit .nonpro-child{
+    height: 450px;
+    width: 85%;
+    margin: 0 auto;
+    /* background-color: aqua */
+    background-color: #C70039;
+}
+.nonprofit  .nonp-left{
+    height: 450px;
+    width:50%;
+    float: left;
+    /* display: inline-block; */
+    /* display: flex; */
+    /* background-color:azure; */
+    background-color: #C70039;
+}
+.nonprofit  .nonp-left img{
+    height: 450px;
+    width: 100%;
+}
+.nonprofit  .nonp-right{
+    height: 450px;
+    width:50%;
+    float: left;
+    /* display: inline-block; */
+    /* display: flex; */
+    color: white;
+    /* background-color: azure;  */
+    background-color: #C70039;
+}
+.nonprofit  .nonp-right .text{
+    height: 400px;
+    width: 90%;
+    float: right;
+    background-color:transparent;
+}
+.nonprofit  .nonp-right .text h1{
+    font-size:26px;
+    text-transform: uppercase;
+    line-height:150px;
+}
+.nonprofit  .nonp-right .text h2{
+    font-size:26px;
+    text-transform: uppercase;
+    margin-top: -60px;
+}
+.nonprofit  .nonp-right .text p{
+    font-size:15px;
+    margin-top: 30px;
+}
+.nonprofit .nonp-right .text button{
+    height:29px;
+    width: 23%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+/* =============== featured causes ================= */
+.feature-case{
+    height: auto;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+.feature-case h1{
+    text-align: center;
+    line-height:80px;
+    text-transform:uppercase;
+}
+.feature-case h1 span{
+  color:#C70039;
+}
+.feature-case .feature-child{
+    height: 410px;
+    width: 85%;
+    margin: 0 auto;
+    /* background-color: cadetblue; */
+}
+.feature-case .feature-child .feature-a{
+    height: 400px;
+    width: 33.3%;
+    float: left;
+    /* margin-left: 32px; */
+    /* background-color: coral; */
+}
+.feature-case .feature-child .feature-a .a{
+    position: relative;
+    height: 400px;
+    width: 95%;
+    margin: 0 auto;
+    background-color: white;
+}
+.feature-case .feature-child .feature-a .a .img{
+    height: 200px;
+    width: 100%;
+    background-color: teal;
+}
+.feature-case .feature-child .feature-a .a .img img{
+    height: 200px;
+    width: 100%;
+    cursor: pointer;
+}
+.feature-case .feature-child .feature-a .a .over{
+    position: absolute;
+    top:186px;
+    left: 10%;
+    height:30px;
+    width:80%;
+    /* margin: 0 auto; */
+    border-radius: 20px;
+    background-color: white;
+    /* background-color: rgb(173, 96, 96); */
+}
+.feature-case .feature-child .feature-a .a .over hr{
+    display: block;
+    /* float: left; */
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.feature-case .feature-child .feature-a .a .over .a{
+    height: 8px;
+    width:30%;
+    margin:12px 5%;
+    float: left;
+    background-color:#C70039;
+}
+.feature-case .feature-child .feature-a .a .over .b{
+    height: 8px;
+    width: 50%;
+    margin:12px -10%;
+    float: left;
+    background-color: rgb(214, 212, 209);
+    /* background-color: ; */
+}
+.feature-case .feature-child .feature-a .a .over span{
+    font-weight: 700;
+    display: block;
+    /* float: left; */
+    margin: 7px 85%;
+}
+.feature-case .feature-child .feature-a .a .text{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color:white;
+    background-color: #C70039;
+}
+.feature-case .feature-child .feature-a .a .text strong{
+    line-height: 90px;
+    margin: 38px;
+    font-size:15px;
+    /* color: #C70039; */
+}
+.feature-case .feature-child .feature-a .a .text h3{
+    margin-top: -22px;
+    line-height: 25px;
+    font-size:20px;
+}
+.feature-case .feature-child .feature-a .a .text button{
+    height:29px;
+    width: 30%;
+    outline: none;
+    border: none;
+    border-radius:10px;
+    display: block;
+    /* margin-top: 10px; */
+    margin: 10px 34.8%;
+    font-weight:500;
+    cursor: pointer;
+    color:white;
+    background-color:black;
+}
+
+/* =============== what people say =============== */
+.container .people-say{
+    height:450px;
+    width: 100%;
+    /* text-align: center; */
+    background-color:#C70039;
+}
+.container .people-say h1{
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.container .people-say .people-child{
+    position: relative;
+    height:200px;
+    width: 85%;
+    /* text-align:center; */
+    margin: 0 auto;
+    border-radius:10px;
+    background-color:white;    
+}
+
+.container .people-say .people-child span{
+    font-size: 70px;
+    line-height: 120px;
+    margin-left: 5%;
+    color: #C70039;
+}
+.container .people-say .people-child p{
+    text-align: center;
+    margin-top: -75px;
+    text-align: center;
+}
+.container .people-say .people-child h2{
+    font-size:28px;
+    text-align: center;
+    line-height: 80px;
+}
+.container .people-say .people-child strong{
+    color: red;
+}
+.container .people-say .tri{
+    height: 15px;
+    width: 1.8%;
+    margin-left:32%;
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    background-color: white;
+}
+.container .people-say .talk{
+    height: 100px;
+    width: 85%;
+    margin: 0 auto;
+    /* background-color: white; */
+}
+.container .people-say .talk .a{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    float: left;
+    margin: 1%;
+    /* margin-left: 10%; */
+    transform: translate(390%);
+    background-color:white;
+}
+.container .people-say .talk .a img{
+    height: 70px;
+    width: 70px;
+    display: block;
+    margin: 5px 5px;
+    cursor: pointer;
+    clip-path: circle(50% at 50% 50%);
+}
+
+/* ============= best volunteer ================ */
+.container .best-vol{
+    height: 360px;
+    width: 100%;
+    text-align: center;
+
+    /* background-color: violet; */
+}
+
+.container .best-vol .best-child{
+    height:360px;
+    width: 85%;
+    margin: 0 auto;
+    background-color: white;
+}
+.container .best-vol .best-child h1{
+    font-size:28px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+.container .best-vol .best-child .a{
+    height:280px;
+    width: 25%;
+    float: left;
+    /* margin:11px; */
+    /* background-color: turquoise; */
+}
+.container .best-vol .best-child .a div{
+    height: 150px;
+    width:90%;
+    margin: 0 auto;
+    /* background-color:white; */
+}
+.container .best-vol .best-child .a .img{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color:white;
+
+}
+.container .best-vol .best-child .a .img img{
+    height: 100px;
+    width: 100px;
+    margin: 5px 5px;
+    cursor: pointer;
+    clip-path: circle(50% at 50% 50%);
+}
+.container .best-vol .best-child .a .text h2{
+   font-size: 20px;
+   line-height: 50px;
+   text-transform:uppercase;
+   cursor: pointer;
+}
+.container .best-vol .best-child .a .text h3{
+   /* line-height:-100px; */
+   margin-top: -12px;
+   text-transform: capitalize;
+   cursor: pointer;
+}
+
+/* ======== contact ======= */
+.container .con{
+    position: relative;
+    height: 51px;
+    width: 100%;
+    background-color: black;
+}
+.container .con .con-over{
+    position: absolute;
+    top: -50px;
+    left: 7.5%;
+    height: 100px;
+    width: 85%;
+    margin: 0 auto;
+    color:white;
+    background-color:#C70039;
+}
+.container .con .con-over .a{
+    position: relative;
+    height: 100px;
+    width:50%;
+    float: left;
+}
+.container .con .con-over i{
+     font-size: 30px;
+     line-height: 100px;
+     margin-left: 11%;
+    }
+.container .con .con-over span{
+    position: absolute;
+    top: 33%;
+    left: 20%;
+   font-size: 15px;
+   font-weight: 600;
+   text-align: center;
+   text-transform: uppercase;
+   margin-top:1px;
+   /* line-height: 100px;    */
+}
+.container .con .con-over strong{
+    font-size:35px;
+    margin-left: 28%;
+    font-weight: 700;
+    letter-spacing:1px;
+}
+.container .con .con-over input{
+    height:35px;
+    width: 52%;
+    outline: none;
+    border:none;
+    border-radius: 20px;
+    margin: 32px 0px;
+    padding-left: 3%;
+}
+.container .con .con-over button{
+    height: 35px;
+    width: 27%;
+    outline:none;
+    border: none;
+    border-radius:20px;
+    font-weight: 700;
+    margin: 32px 4%;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+/* ========== footer =========== */
+.container .footer{
+    height: 500px;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+.container .footer .footer-child{
+    height: 500px;
+    width: 85%;
+    margin: 0 auto;
+    /* background-color: blueviolet; */
+}
+.container .footer .footer-child .a{
+    height:450px;
+    width: 25%;
+    float: left;
+    /* background-color: burlywood; */
+}
+.container .footer .footer-child .a h1{
+    font-size: 35px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+.container .footer .footer-child .a p{
+   text-transform: capitalize;
+}
+.container .footer .footer-child .a h2{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 80px;
+    text-transform:uppercase;
+    
+}
+.container .footer .footer-child .a img{
+    height: 90px;
+    width: 40%;
+}
+.container .footer .footer-child .a .text-left{
+    margin-left: 14%;
+}
+.container .footer .footer-child .a .icon{
+    line-height: 50px;
+    margin-left: 5%;
+    /* float: left; */
+    /* display: block; */
+}
+.container .footer .footer-child .a .icon i{
+    width: 5%;
+    margin-left: 10%;
+    /* text-align: left; */
+    /* float: left; */
+    /* display: block; */
+
+}
+.container .footer .footer-child .a .icon span{
+    margin-left: 8%;
+}
+
+.container .footer .footer-child .a h3{
+    text-transform: capitalize;
+    line-height:50px;
+    color: #C70039;
+}
+.container .footer .footer-child .a strong{
+  line-height:30px;
+  display: block;
+}

@@ -1,0 +1,518 @@
+/* =============================== HEADDER ========================= */
+
+*{
+    margin: 0;
+    padding: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+#main-container{
+    height: auto;
+    /* width: 1450px; */
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: blueviolet; */
+}
+#child-container{
+    height: auto;
+    width: 1450px;
+    max-width: 100%;
+    margin: 0 auto;
+    /* background-color: beige; */
+}
+#main-container #child-container .headder{
+    height:auto;
+    width: 100%;
+    background-color: #030714;
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5634628851540616) 41%, rgba(0,212,255,1) 100%); */
+    /* background-color: rgb(65, 133, 133); */
+    /* background: linear-gradient(90deg, rgba(225,58,235,0.8379726890756303) 0%, rgba(46,9,121,0.5634628851540616) 54%, rgba(28,204,185,1) 94%); */
+    /* background: linear-gradient(90deg, rgba(225,58,235,0.8379726890756303) 0%, rgba(46,9,121,0.23573179271708689) 25%, rgba(28,204,185,1) 94%); */
+    /* background: linear-gradient(157deg, rgba(201,44,201,1) 0%, rgba(30,108,171,0.6362920168067228) 54%, rgba(20,231,232,1) 100%, rgba(255,255,255,0.6671043417366946) 100%); */
+    /* background: linear-gradient(157deg, rgba(157,44,201,1) 0%, rgba(30,108,171,0.6362920168067228) 21%, rgba(38,105,172,0.3981967787114846) 100%, rgba(20,231,232,1) 100%, rgba(255,255,255,0.6671043417366946) 100%); */
+    /* background: linear-gradient(157deg, rgba(171,72,209,1) 0%, rgba(30,108,171,0.6362920168067228) 21%, rgba(38,105,172,0.3981967787114846) 79%, rgba(20,231,232,0.20772058823529416) 100%); */
+    /* background: linear-gradient(157deg, rgba(171,72,209,0.577468487394958) 0%, rgba(30,108,171,0.6362920168067228) 21%, rgba(38,105,172,0.3981967787114846) 79%, rgba(20,31,232,0.20772058823529416) 100%); */
+  }
+/* #main-container #child-container .headder{
+    height:600px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(25, 22, 27);
+} */
+#main-container #child-container .headder .child-hadder{
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: rgb(61, 238, 126); */
+}
+/* ==================================== START NAVIGATION BAR =================================== */
+#main-container #child-container .headder .child-hadder .nav{
+  /* position: fixed; */
+  /* top: 0;
+  left: 0; */
+  /* position: static; */
+   height: 50px;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   /* background-color:brown; */
+}
+#main-container #child-container .headder .child-hadder .nav .top-bar{
+   height: 50px;
+   width: 50%;
+   line-height: 50px;
+   color:black;
+   /* background-color: black; */
+}
+#main-container #child-container .headder .child-hadder .nav .top-bar .nav-text h3{
+  /* font-family: 'Oleo Script', cursive; */
+ /* font-family: 'Barlow Condensed', sans-serif; */
+  /* font-family: 'Merriweather', serif; */
+  /* font-family: 'Old Standard TT', serif; */
+  letter-spacing: 1px;
+  color: white;
+}
+#main-container #child-container .headder .child-hadder .nav .top-bar .nav-text h3 span{
+  font-size: 30px;
+  font-family: 'Old Standard TT', serif;
+  letter-spacing: 1px;
+  color:#4581f8;
+}
+#main-container #child-container .headder .child-hadder .nav .top-bar .nav-text ul{
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   text-transform: capitalize;
+}
+#main-container #child-container .headder .child-hadder .nav .top-bar .nav-text ul li{
+  font-weight:700;
+}
+#main-container #child-container .headder .child-hadder .nav .top-bar .nav-text ul li a{
+   text-decoration: none;
+   color: white;
+}
+#main-container #child-container .headder .child-hadder .nav .top-bar .nav-text ul li a:hover{
+    color:#4581f8;
+    
+}
+
+
+/* ============================================= END NAVIGATION BAR ============================================ */
+/* ============================================== START BANNER SECTION ========================================= */
+#main-container #child-container .headder .child-hadder .banner{
+   height:auto;
+   width: 100%;
+   /* background-color: royalblue; */
+} 
+#main-container #child-container .headder .child-hadder .banner .child-banner{
+   height: auto;
+   width: 100%;
+   /* background-color: bisque; */
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .taxt-about{
+  height:260px;
+  width: 80%;
+  margin: 0 auto;
+  color: aliceblue;
+  /* background-color: blueviolet; */
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .taxt-about .text{
+  height: 180px;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 55px;
+  /* background-color: aquamarine; */
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .taxt-about .text h3{
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 70px;
+  color: #4581f8;
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .taxt-about .text p{
+  font-size: 19px;
+  line-height: 20px;
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .taxt-about .text strong{
+  font-size: 18px;
+  word-spacing: 1px;
+  line-height: 35px;
+  display:block;
+  /* color: rgb(9, 73, 102); */
+  color:#4581f8;
+
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .taxt-about .text strong span{
+  color:white;
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .taxt-about .text strong i{
+  font-weight: 300;
+  color: white;
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .img{
+  height: 268px;
+  width: 100%;
+  display: flex;
+  /* background-color: rgb(27, 77, 83); */
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .img .icon{
+  height: 268px;
+  width: 20%;
+  /* background-color: rgb(86, 60, 110); */
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .img .icon .wrap{
+  height: 258px;
+  width: 100%;
+  /* background-color: rgb(74, 129, 111); */
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .img .icon .wrap .a{
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color:white;
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .img .icon .wrap .a a{
+  text-decoration: none;
+   color:black;
+
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .img .icon .wrap .a:hover{
+    color: white;
+    background-color:#4581f8;
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .img .icon .wrap .a a i{
+  text-align: center;
+  line-height: 50px;
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .img .icon .wrap .a a:hover{
+   color:white;
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .img .img-main{
+   height: 268px;
+   width: 80%;
+   /* background-color:red; */
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .img .img-main .img{
+   height: 268px;
+   width: 80%;
+   /* background-color: blueviolet; */
+
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .img .img-main .img .a{
+   height: 260px;
+   width: 40%;
+   margin: 0 auto;
+   /* background-color: black; */
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .img .img-main .img .a .img-a{
+
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .img .img-main .img .a .img-a img{ 
+   height: 150px;
+   width: 150px;
+   display: block;
+   margin: 10px auto;
+   border-radius: 50%;
+   border: 2px solid #4581f8;
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .img .img-main .img .a button{ 
+  height: 30px;
+  width: 50%;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-weight:700;
+  margin: 20px auto;
+  cursor: pointer;
+  /* color:#4581f8; */
+    /* background-color: ; */
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .img .img-main .img .a button a{ 
+   text-decoration: none;
+   color: black;
+}
+#main-container #child-container .headder .child-hadder .banner .child-banner .img .img-main .img .a button:hover{ 
+  background-color:#4581f8;
+}
+/* ================================================== END HADDER ======================================================= */
+/* ================================================== START SKILLS AREA =========================================================== */
+#main-container #child-container .skills{
+  height: 350px;
+  width: 100%;
+  background-color:#e7e2e2;
+
+  /* background-color: brown; */
+}
+#main-container #child-container .skills h1{
+   text-align: center;
+   letter-spacing:1.5px;
+   font-size:32px;
+   line-height: 50px;
+}
+#main-container #child-container .skills h1 span{
+   font-size: 50px;
+   color: blue;
+}
+#main-container #child-container .skills .child-skills{
+   height: 250px;
+   width: 80%;
+   margin: 0 auto;
+   /* background-color: aqua; */
+}
+#main-container #child-container .skills .child-skills .wrap{
+   height: 250px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   /* background-color: rgb(64, 197, 197); */
+}
+#main-container #child-container .skills .child-skills .wrap .a{
+   height: 250px;
+   width: 30%;
+   border-radius: 15px;
+   text-align: center;
+   cursor: pointer;
+   box-shadow: 2px 2px 4px 2px white;
+   background-color: rgb(136, 163, 165);
+}
+#main-container #child-container .skills .child-skills .wrap .a:hover{
+  box-shadow: 2px 4px 8px 2px rgba(89, 158, 223, 0.699);
+  /* background-color: #4581f8; */
+}
+#main-container #child-container .skills .child-skills .wrap .a .aa{
+   height: 240px;
+   width: 90%;
+   margin: 0 auto;
+   /* background-color: green; */
+}
+#main-container #child-container .skills .child-skills .wrap .a h3{
+  line-height:50px;
+  font-size: 22px;
+}
+#main-container #child-container .skills .child-skills .wrap .a p{
+  
+}
+#main-container #child-container .skills .child-skills .wrap .a  ul{
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  margin:10px 0px;
+  color: #263450;
+  /* background-color: #4581f8; */
+}
+#main-container #child-container .skills .child-skills .wrap .a  ul li{
+   text-align: center;
+   line-height: 25px;
+   font-weight: 700;
+}
+/* ================================================ END SKILLS ====================================================================== */
+/* =================================================== START PROJECT AREA ============================================================ */
+#main-container #child-container .project{
+  height:auto;
+  width: 100%;
+  /* background-color: darkcyan; */
+}
+#main-container #child-container .project h1{
+  font-size: 35px;
+  text-align: center;
+  line-height: 50px;
+}
+#main-container #child-container .project h1 span{
+  font-size: 50px;
+  color: blue;
+}
+#main-container #child-container .project .child-project{
+  height:auto;
+  width: 80%;
+  margin: 0 auto;
+  /* background-color: blueviolet; */
+}
+#main-container #child-container .project .child-project .wrap{
+  height: 400px;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rgb(71, 231, 231); */
+}
+#main-container #child-container .project .child-project .wrap .a{
+  height:300px;
+  width: 24%;
+  box-shadow: 2px 2px 4px 2px rgba(121, 170, 235, 0.637);
+  /* background-color: brown; */
+}
+#main-container #child-container .project .child-project .wrap .a:hover .aaa{
+  box-shadow: 2px 2px 4px 4px rgba(156, 214, 216, 0.699);
+  /* box-shadow: 2px 4px 5px 7px rgba(89, 158, 223, 0.699); */
+  color: rgb(38, 73, 83);
+  /* background-color:rgb(6, 157, 245); */
+}
+#main-container #child-container .project .child-project .wrap .a .aa{
+  height: 170px;
+  width: 100%;
+  /* box-shadow: 2px 2px 4px 2px rgb(131, 176, 235); */
+  /* background-size:cover; */
+ }
+#main-container #child-container .project .child-project .wrap .a .aa img{
+    height: 170px;
+    width: 100%;
+}
+#main-container #child-container .project .child-project .wrap .a .aaa{
+  height: 130px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+  /* box-shadow: 2px 2px 4px 2px rgb(131, 176, 235); */
+  /* background-color: aquamarine; */
+  background-color: rgb(136, 163, 165);
+}
+#main-container #child-container .project .child-project .wrap .a .aaa:hover{
+
+}
+#main-container #child-container .project .child-project .wrap .a .aaa h3{
+  font-size: 18px;
+  line-height: 35px;
+  text-transform: capitalize;
+}
+/* =============================================== END PROJECT SECTION ===================================================================== */
+/* ================================================= START EXP SECTION ====================================================================== */
+#main-container #child-container .exp{
+  height:auto;
+  width: 100%;
+  background-color:#e7e2e2;
+}
+#main-container #child-container .exp h1{
+   font-size: 35px;
+   line-height: 50px;
+   text-align: center;
+}
+#main-container #child-container .exp h1 span{
+  font-size: 50px;
+   color: blue;
+}
+#main-container #child-container .exp .child-exp{
+  height:auto;
+  width: 80%;
+  margin: 0 auto;
+  /* background-color: wheat; */
+}
+#main-container #child-container .exp .child-exp .wrap{
+  height:400px;
+  width: 100%;
+  /* background-color: blue; */
+}
+#main-container #child-container .exp .child-exp .wrap .sec{
+  /* height: 400px;
+  width: 100%; */
+  display: flex;
+  justify-content: space-between;
+}
+#main-container #child-container .exp .child-exp .wrap .sec .a{
+  height: 300px;
+  width: 32%;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px 2px white;
+  background-color: rgb(136, 163, 165);
+  /* background-color: brown; */
+}
+#main-container #child-container .exp .child-exp .wrap .sec .a:hover{
+  box-shadow: 2px 4px 8px 2px rgba(89, 158, 223, 0.699);
+  /* background-color: #4581f8; */
+}
+#main-container #child-container .exp .child-exp .wrap .sec .a .aa{
+  height: 200px;
+  width: 100%;
+  /* border-radius: 10px; */
+  /* background-color: blueviolet; */
+}
+#main-container #child-container .exp .child-exp .wrap .sec .a .aa{
+  height: 200px;
+  width: 100%;
+}
+#main-container #child-container .exp .child-exp .wrap .sec .a .aa .img{
+   height: 200px;
+   width: 80%;
+   margin: 0 auto;
+   background-color: #263450;
+}
+#main-container #child-container .exp .child-exp .wrap .sec .a .text{
+  height: 100px;
+  width: 100%;
+  /* border-radius: 10px; */
+  /* background-color:gray; */
+}
+#main-container #child-container .exp .child-exp .wrap .sec .a .text{
+  height: 100px;
+  width: 100%;
+  /* background-color: aquamarine; */
+}
+/* ================================================================= END EXP SECTION ============================================================ */
+/* =============================================================== START CONTACT AREA  ========================================================== */
+#main-container #child-container .contact{
+   height: auto;
+   width: 100%;
+  background-color:#e7e2e2;
+
+   /* background-color: rgb(63, 85, 117); */
+}
+#main-container #child-container .contact h1{
+   font-size: 35px;
+   line-height: 50px;
+   text-align: center;
+}
+#main-container #child-container .contact h1 span{
+   font-size: 50px; 
+   color: blue;
+
+}
+#main-container #child-container .contact .child-con{
+   height: 250px;
+   width: 80%;
+   margin: 0 auto;
+   /* background-color: rgb(0, 0, 0) */
+}
+#main-container #child-container .contact .child-con .wrap{
+   height: 200px;
+   width: 80%;
+   margin: 0 auto;
+   /* background-color: aquamarine; */
+}
+#main-container #child-container .contact .child-con .wrap .a{
+   height: 100px;
+   width: 100%;
+   /* background-color: rgb(155, 106, 41); */
+}
+#main-container #child-container .contact .child-con .wrap .a .text{
+   height: 100px;
+   width: 100%;
+   text-align: center;
+}
+#main-container #child-container .contact .child-con .wrap .a .text p{
+   font-size: 22px;
+   line-height: 100px;
+}
+#main-container #child-container .contact .child-con .wrap .a .icon{
+   height: 100px;
+   width: 60%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-around;
+   /* background-color:green; */
+}
+#main-container #child-container .contact .child-con .wrap .a .icon .aa{
+    height:60px;
+    width: 60px;
+    text-align: center;
+    /* border: 0.8px solid black; */
+}
+#main-container #child-container .contact .child-con .wrap .a .icon .aa i{
+   font-size: 25px;
+   text-align: center;
+   line-height: 50px;
+}

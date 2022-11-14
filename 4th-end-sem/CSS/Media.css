@@ -1,0 +1,172 @@
+@media screen and (max-width:700px){
+    #main-container #chlid-container .headder{
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        
+    }
+#main-container #chlid-container .headder .child-headder .small-child .nav{
+ display: block;
+}
+#main-container #chlid-container .headder .child-headder .small-child .nav .nav-a{
+    height: 50px;
+    width: 100%;
+   display: block;
+   /* background-color: red; */
+}
+/* ============= BANNER AREA ============ */
+#main-container #chlid-container .contant .child-contant{
+   height: auto;
+   width: 100%;
+}
+#main-container #chlid-container .headder .child-headder .small-child .banner .banner-child .text{
+   text-align: center;
+}
+#main-container #chlid-container .headder .child-headder .small-child .banner .banner-child .text button{
+    height: 30px;
+    width: 30%;
+    /* margin-top: 40px; */
+    display: block;
+    margin: 25px auto;
+}
+
+/* ==================================== contant area ===================================== */
+
+#main-container #chlid-container .contant .child-contant .contant-area .main-img-a{
+    height:auto;
+    width: 100%;
+    padding-top: 15px;
+    display: block;
+    /* background-color: red; */
+}
+#main-container #chlid-container .contant .child-contant .contant-area .main-img-a .a{
+    height: 380px;
+    width: 80%;
+    display:block;
+    margin: 25px auto;
+    background-color: gray;
+}
+#main-container #chlid-container .contant .child-contant .contant-area .main-img-a .a:nth-child(2){
+    height: 380px;
+    width: 80%;
+    display:block;
+    margin: 25px auto;
+    background-color: gray;
+ }
+ #main-container #chlid-container .contant .child-contant .contant-area .main-img-b{
+    height:auto;
+    width: 100%;
+    /* padding-top: 15px; */
+    display: block;
+    /* background-color: rgb(92, 84, 84); */
+}
+#main-container #chlid-container .contant .child-contant .contant-area .main-img-b .a:nth-child(1){
+    height: 380px;
+    width: 80%;
+    display:block;
+    margin: 25px auto;
+    background-color: gray;
+}
+#main-container #chlid-container .contant .child-contant .contant-area .main-img-b .a:nth-child(2){
+    height: 380px;
+    width: 80%;
+    display:block;
+    margin: 25px auto;
+    background-color: gray;
+}
+#main-container #chlid-container .contant .child-contant .contant-area .main-img-b .a:nth-child(3){
+    height: 380px;
+    width: 80%;
+    display:block;
+    margin: 25px auto;
+    background-color: gray;
+}
+
+#main-container #chlid-container .contant .child-contant .contant-area .main-img-c{
+    height:auto;
+    width: 100%;
+    /* padding-top: 15px; */
+    display: block;
+    /* background-color: red; */
+}
+#main-container #chlid-container .contant .child-contant .contant-area .main-img-c .a:nth-child(1){
+   height: 380px;
+   width: 80%;
+   display: block;
+   margin: 25px auto;
+   background-color: aqua;
+}
+#main-container #chlid-container .contant .child-contant .contant-area .main-img-c .a:nth-child(2){
+    height: 380px;
+    width: 80%;
+    display: block;
+    margin: 25px auto;
+    background-color: rgb(54, 78, 78);
+ }
+ #main-container #chlid-container .contant .child-contant .contant-area .main-img-c .a:nth-child(3){
+    height: 380px;
+    width: 80%;
+    display: block;
+    margin: 25px auto;
+    background-color: aqua;
+ }
+ #main-container #chlid-container .contant .child-contant .contant-area button{
+     height: 30px;
+     width: 20%;  
+}
+
+
+/* ===================================== accesss point ================================== */
+#main-container #chlid-container .access-point{
+    height:1000px;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+}
+#main-container #chlid-container .access-point .child-access .containt{
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 35px;
+    display: block;
+    /* background-color: black; */
+ }
+ #main-container #chlid-container .access-point .child-access .containt .a{
+    height: 220px;
+    width: 100%;
+    display: block;
+    /* background-color: aquamarine; */
+ }
+
+   /* ============================================== START CONTACT AREA ======================================== */
+   #main-container #chlid-container .contact .child-contact .contant .wrap .a textarea{
+      height: 200px;
+      width: 100%;
+   }
+   #main-container #chlid-container .contact .child-contact .contant .wrap button{
+     height: 30px;
+     width: 25%;
+   }
+   /* =========================================== START FOOTER ==================================== */
+   #main-container #chlid-container .footer{
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+     
+   }
+   #main-container #chlid-container  .footer .contant .icon{
+       height: 100px;
+       width:45%;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

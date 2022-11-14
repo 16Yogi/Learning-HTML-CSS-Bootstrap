@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main-container{
+    height: auto;
+    width: 1450px;
+    max-width: 100%;
+    margin: 0 auto;
+    /* background: lightblue; */
+}
+#main-container #child-container{
+    height: auto;
+    width: 1450px;
+    max-width: 100%;
+    margin: 0 auto;
+    /* background: darkblue; */
+}
+
+/* ========================= HEADDER ======================== */
+
+#main-container #child-container .headder{
+    height: auto;
+    width: 100%;
+    /* background: white; */
+}
+#main-container #child-container .headder .child-headder{
+  height: auto;
+  width: 80%;
+  margin: 0 auto;
+  /* background: whitesmoke; */
+}
+#main-container #child-container .headder  .top{
+  height:50px;
+  width:100%;
+  color: white;
+  background: #282F63 ;
+
+  /* background:green; */
+}
+#main-container #child-container .headder .top .wrap{
+  height:50px;
+  width: 80%;
+  margin: 0 auto;
+  display:flex;
+  /* background: green ; */
+}
+#main-container #child-container .headder .top .wrap i{
+  color:#2E931E ;
+}
+#main-container #child-container .headder .top .wrap .a{
+  height: 50px;
+  width:50%;
+  display: flex;
+  /* text-align: left; */
+  /* background: lightcoral; */
+}
+#main-container #child-container .headder  .top .wrap .a:nth-child(2){
+  display: flex;
+  justify-content: right;
+  /* color: white; */
+  /* background: yellow; */
+}
+#main-container #child-container .headder .top .wrap .a .cont{
+  height: 50px;
+  width:50%;
+  /* text-align: center; */
+  line-height: 50px;
+  /* background: darkblue; */
+}
+#main-container #child-container .headder  .top .wrap .a .con-a{
+  height: 50px;
+  width: 40%;
+  line-height: 50px;
+  text-align: right;
+  display: flex;
+  /* background: pink; */   
+}
+#main-container #child-container .headder  .top .wrap .a .con-a:nth-child(1){
+   width: 30%;
+   /* background: green; */
+}
+#main-container #child-container .headder  .top .wrap .a .con-a i{
+  line-height: 50px;
+  margin: 0px 6px;
+}
+#main-container #child-container .headder .top .wrap .a .con-a .icon{
+   height: 40px;
+   width: 40px;
+   line-height: 10px;
+   text-align: center;
+   border-radius: 50%;
+   margin: 5px 2px;
+   color: darkblue;
+   background: lightgreen;
+}
+#main-container #child-container .headder .top .wrap .a .con-a .icon i{
+  color: darkblue;
+  margin: -5px -5px;
+}
+/* ============================= END TOP ====================== */
+/* ============================== START TOP SECOND ===================== */
+
+#main-container #child-container .headder .child-headder .second-top{
+    height:auto;
+    width: 100%;
+    /* background:white; */
+}
+#main-container #child-container .headder .child-headder .second-top .child-second{
+    height: auto;
+    width: 100%;
+    display: flex;
+    /* background: rgb(0, 0, 0,0.5); */
+}
+#main-container #child-container .headder .child-headder .second-top .child-second .a{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    /* background: gray; */
+}
+#main-container #child-container .headder .child-headder .second-top .child-second .a .aaa{
+     height: 100px;
+     width: 50%;
+   display: flex;
+   /* display: inline-block; */
+   /* background: lightcyan; */
+}
+#main-container #child-container .headder .child-headder .second-top .child-second .a .aa{
+   height: 50px;
+   width: 50%;
+   /* display: flex; */
+   /* display: inline-block; */
+   padding-top: 30px;
+   /* background: lightcyan; */
+}
+
+#main-container #child-container .headder .child-headder .second-top .child-second .a .aaa .wrap{
+   height: 100px;
+   width: 45%;
+   /* margin-top: 0px; */
+   /* display: inline-block; */
+    /* background: pink; */
+}
+#main-container #child-container .headder .child-headder .second-top .child-second .a .aaa .wrap:nth-child(2){
+  height: 50px;
+  width:45%;
+  margin-top: 25px;
+  /* background: red; */
+}
+#main-container #child-container .headder .child-headder .second-top .child-second .a .aaa .wrap i{
+   font-size:90px;
+   line-height:100px;
+   color:#289E16;
+   text-shadow: 50px 5px 5px 10px gray;
+}
+#main-container #child-container .headder .child-headder .second-top .child-second .a .aaa .wrap h1{
+    font-size: 28px;
+   text-transform: uppercase;
+   color: darkblue;
+}
+#main-container #child-container .headder .child-headder .second-top .child-second .a .aaa .wrap h5{
+  font-size: 15px;
+  text-transform: uppercase;
+  color: darkblue;
+}
+#main-container #child-container .headder .child-headder .second-top .child-second .a .aa  h3{
+    /* margin-top: 20px; */
+  font-size: 20px;
+  text-transform: capitalize;
+  color: darkblue;
+}
+#main-container #child-container .headder .child-headder .second-top .child-second .a .aa  h3:nth-child(1){
+  color:#79F965;
+}
+/* ===================== END TOP SECOND SECTION =========================== */
+
+/* ================================= START NAVIGATION SECTION =================================== */
+#main-container #child-container .headder .nav{
+    height:auto;
+    width: 100%;
+    background:#FBFBFB;
+}
+#main-container #child-container .headder .nav hr{
+   height: 2px;
+   width: 99%;
+   margin: 0 auto;
+   outline: none;
+   border: none;
+   background: whitesmoke;
+}
+#main-container #child-container .headder  .nav .child-nav{
+   height: 60px;
+   width: 80%;
+   margin: 0 auto;
+   /* background: darkblue; */
+}
+#main-container #child-container .headder .nav .child-nav .wrap{
+  height: 60px;
+  width: 95%;
+  /* background: green; */
+}
+#main-container #child-container .headder  .nav .child-nav .wrap .a{
+  height: 60px;
+  width: 100%;
+  /* display: none; */
+  /* background: darkblue; */
+}
+ #main-container #child-container .headder  .nav .child-nav .wrap .hide{ 
+   display:none;
+   height: 480px;
+   width: 50%;
+   z-index: 3;
+   background: gray;
+} 
+#main-container #child-container .headder  .nav .child-nav .wrap .a ul{
+   list-style: none;
+   line-height: 60px;
+   display: flex;
+   justify-content: space-around;
+   text-transform: uppercase;
+}
+/* =================================== END NAVIGATION ======================= */
+/* =-===================== END HEADDER================================ */
+
+/* =================================== START BANNER SECTION ===================== */
+
+#main-container #child-container .banner{
+    height: 480px;
+    width: 100%;
+    background:#8995F0 ;
+    /* background: 100%; */
+    /* background-repeat:repeat-x; */
+    /* background-image: url("https://media.istockphoto.com/photos/casual-business-indian-male-portrait-picture-id485434314?k=20&m=485434314&s=612x612&w=0&h=GsBeSSOHEZTNnUJmraL8mIoQmgFWoTqBhJVovYLshx0="); */
+}
+#main-container #child-container .banner .child-banner{
+   height: 480px;
+   width: 80%;
+   margin: 0 auto;
+   /* background: rgb(0, 0, 0,0.2); */
+}
+#main-container #child-container .banner .child-banner .wrap{
+  height: 480px;
+  width: 100%;
+  display: flex;
+}
+#main-container #child-container .banner .child-banner .wrap .a{
+  height: 480px;
+  width: 50%;
+}
+#main-container #child-container .banner .child-banner .wrap .a:nth-child(1){
+   height: 440px;
+   padding-top:40px;
+   color: white;
+   background:#282F63;    
+}
+#main-container #child-container .banner .child-banner .wrap .a:nth-child(2){
+   /* background-attachment: fixed; */
+   /* background-repeat:; */
+   /* background:no-repeat; */
+   background-size: 100% 480px; /*cover,50%,contain,*/
+   /* background: 100%; */
+   /* background-height: 420px; */
+   /* background-image:url("e-id1326432425?k=20&m=1326432425&s=612x612&w=0&h=_P4xwYzbyc5glKsQcOD9LKlSv4ZNeRNcAWjSJrUU0QI="); */
+    background-image:url("https://media-private.canva.com/rTdqI/MAE-BRrTdqI/1/tl.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20220415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220415T055928Z&X-Amz-Expires=99738&X-Amz-Signature=24c83fbb5485a48f2719f093679da9781ca1a326632b66dc3c0cdeea41505ceb&X-Amz-SignedHeaders=host&response-expires=Sat%2C%2016%20Apr%202022%2009%3A41%3A46%20GMT");
+}
+#main-container #child-container .banner .child-banner   .wrap .a h1{
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    /* text-align: center;   */
+    text-indent:7%;
+}
+#main-container #child-container .banner .child-banner .wrap .a hr{
+    height: 8px;
+    width: 60%;
+    margin: 25px;
+    outline:none;
+    border: none;
+    background: lightgreen;
+    /* border-radius: 10px; */
+    /* text-indent: 16%; */
+    margin-left:7%;
+}
+#main-container #child-container .banner .child-banner .wrap .a p{
+   font-size: 25px;
+   text-indent: 7%;
+   /* text-align: center; */
+   /* padding-top: 20px; */
+}
+#main-container #child-container .banner .child-banner .wrap .a button{
+   height: 38px;
+   width: 25%;
+   margin: 25px 7%;
+   outline: none;
+   border: none;
+   border-radius:5%;
+   font-weight: 500;
+   background: lightgreen;
+}
+/* ====================================== END BANNER SECTION ===================================== */
+/* =================================== START SERVICE SETION ================================== */
+
+#main-container #child-container .service{
+    height:auto;
+    width: 100%;
+    /* background: gray; */
+}
+#main-container #child-container .service .child-service{
+    height:auto;
+    width: 80%;
+    margin: 0 auto;
+    background:white;
+}
+#main-container #child-container .service .child-service .wrap{
+    height: 270px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background: lightblue; */
+}
+#main-container #child-container .service .child-service .wrap .a{
+   height: 200px;
+   width: 32%;
+   padding-top: 40px;
+   display: flex;
+   /* background: darkblue; */
+}
+#main-container #child-container .service .child-service .wrap .a .con{
+   height: auto;
+   width: 30%;
+   /* background:red; */
+}
+#main-container #child-container .service .child-service .wrap .a .con .circle{
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  border-radius: 50%;
+  color: black;
+  background:lightgreen;
+}
+#main-container #child-container .service .child-service .wrap .a .con .circle i{
+   font-size: 25px;
+   line-height: 80px;
+   text-align: center;
+   color:black;
+}
+#main-container #child-container .service .child-service .wrap .a .text{
+  height: 200px;
+  width: 70%;
+  /* background: green; */
+}
+#main-container #child-container .service .child-service .wrap .a .text .aa{
+  height: 240px;
+  width: 95%;
+  margin:0 auto;
+}
+#main-container #child-container .service .child-service .wrap .a .text .aa h3{
+  font-size: 20px;
+}
+#main-container #child-container .service .child-service .wrap .a .text .aa p{
+  font-size:17px;
+  margin-top: 20px;
+}
+
+/* =============================================== END SERVICE SETION ============================== */
+/* ============================= START FOOTER SECTION =============================== */
+#main-container #child-container .footer{
+  height: auto;
+  width: 100%;
+  background:#ECECF0;
+}
+#main-container #child-container .footer .wrap{
+  height:150px;
+  width:80%;
+  margin: 0 auto;
+}
+#main-container #child-container .footer .wrap .text{
+height: 80px;
+width: 50%;
+text-align: center;
+margin: 0 auto;
+padding-top: 60px;
+/* background: gray; */
+}
+#main-container #child-container .footer .wrap .text h4{
+  line-height: 25px;
+}
+#main-container #child-container .footer .wrap .text h1{
+  word-spacing: 2px;
+  text-transform: uppercase;
+  color:#131B51 ;
+}
+#main-container #child-container .footer .wrap .text hr{
+  height: 5px;
+  width: 20%;
+  outline: none;
+  border: none;
+  /* padding-top: 10px; */
+  margin: 10px auto;
+  background:lightgreen;
+}

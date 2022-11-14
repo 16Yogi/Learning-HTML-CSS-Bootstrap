@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/ec51b9d2d0.js" crossorigin="anonymous"></script>
+
+	<title>Document</title>
+	<style>
+		.hide{
+            height:400px;
+            width: 100%;
+            background: gray;
+		}
+		.hide .aa{
+			height:50px;
+			width: 100%;
+			background:white;
+		}
+		.hide .a{
+			display: none;
+			height: 300px;
+			width: 40%;
+			background: blue;
+		}
+		.hide .a ul{
+           list-style: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="hide">
+		<div class="aa">
+			<button onclick="one()"><i class="fa-solid fa-bars"></i></button>
+		</div>
+		<div class="a" id="open">
+		    <ul>
+			   <li>HOME</li>
+			   <li>HOME</li>
+			   <li>HOME</li>
+			   <li>HOME</li>
+			   <li>HOME</li>
+		    </ul>
+		</div>    
+	</div>
+</body>
+</html>
+
+
+
+<script>
+	function one(){
+         document.getElementById("open").style.display="block";
+	}
+</script>

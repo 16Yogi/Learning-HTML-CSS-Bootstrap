@@ -1,0 +1,134 @@
+@media screen and (max-width:500px) {
+	#main-container #child-container .headder .top{
+		height: 110px;
+		width: 100%;
+	}
+	#main-container #child-container .headder .top .wrap{
+    height: 100px;
+    width: 100%;
+    display: block;
+	}
+
+#main-container #child-container .headder .top .wrap .a{
+	height: 50px;
+	width: 100%;
+	display: block;
+	display:flex;
+	justify-content: space-around;
+	text-align: center;
+	margin: 0 auto;
+   /* background: red; */
+	}
+#main-container #child-container .headder  .top .wrap .a .con-a:nth-child(1){
+  /* display: block; */
+  width: 50%;
+  /* background: red; */
+}
+
+/* ================ second =============== */
+/* #main-container #child-container .headder .child-headder .second-top .child-second{
+   height: 20px;
+	width: 100%;
+} */
+#main-container #child-container .headder .child-headder .second-top .child-second{
+	height: 210px;
+	width: 100%;
+	display: block;
+}
+#main-container #child-container .headder .child-headder .second-top .child-second .a{
+	height: 100px;	
+	width: 100%;
+   /* background: red; */
+}
+
+#main-container #child-container .headder .child-headder .second-top .child-second .a .aaa{
+    width: 100%;
+    margin: 0 auto;
+    /* background: lightgreen; */
+}
+#main-container #child-container .headder .child-headder .second-top .child-second .a .aaa .wrap{
+   width: 50%;
+
+}
+#main-container #child-container .headder .child-headder .second-top .child-second .a .aaa .wrap i{
+   /* text-align: center; */
+   text-indent: 50%;
+}
+#main-container #child-container .headder .child-headder .second-top .child-second .a .aaa .wrap h1,h5{
+  text-align: center;
+}
+#main-container #child-container .headder .child-headder .second-top .child-second .a .aa{
+   text-align: center;
+}
+/* ===================== end 2nd =========================== */
+ /* ============================ NAVIGATION ===================== */
+#main-container #child-container .headder  .nav .child-nav{
+	height: 120px;
+   width: 100%;
+	/* display: none; */
+}
+/* #main-container #child-container .headder  .nav .child-nav .wrap .a ul{
+   justify-content: space-around;
+   width: 100%;
+   display: block;
+}
+#main-container #child-container .headder  .nav .child-nav .wrap .a ul li{
+   width:100%;
+   height: 60px;
+} */
+/* ============================ END NAV ============================== */
+
+/* ============================== BANNER SECTION =================================== */
+#main-container #child-container .banner .child-banner{
+   position: relative;
+   width: 100%;
+   height: 480px;
+   display: block;
+}
+#main-container #child-container .banner .child-banner .wrap .a:nth-child(2){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+}
+#main-container #child-container .banner .child-banner .wrap .a:nth-child(1){
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 1;
+   width: 100%;
+   background: rgb(0, 0, 0,0.5);
+}
+#main-container #child-container .banner .child-banner .wrap .a h1{
+  font-size: 30px;
+}
+#main-container #child-container .banner .child-banner .wrap .a hr{
+  height: 5px;
+}
+#main-container #child-container .banner .child-banner .wrap .a p{
+  font-size: 19px;
+}
+/* =========================== SERVICE =========================== */
+
+#main-container #child-container .service .child-service .wrap{
+   height: auto;
+   width: 100%; 
+   display: block;  
+}
+#main-container #child-container .service .child-service .wrap .a{
+   /* display: block; */
+   width: 90%;
+   margin: 0 auto;
+}
+
+/* ========== footer ================ */
+#main-container #child-container .footer .wrap .text{
+  width: 100%;
+  /* margin: 0px auto; */
+  padding-top: 40px;
+}
+#main-container #child-container .footer .wrap .text h1{
+   font-size: 28px;
+}
+}
+

@@ -1,0 +1,31 @@
+.background{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: #A9CCE3;
+}
+.mainpg{
+        position:relative;
+        top: 130px;
+         height: 100%;
+         width: 60%;
+        /* border: 1px solid;*/
+         
+}
+.user_name{
+           width: 30%;
+           height: 25px;
+}
+.password{
+          width:30%;
+          height:25px;
+}
+
+.forget{
+        position:absolute;
+        left: 35%;
+}
+.createAC{
+          position: absolute;
+          left: 54%;
+}
